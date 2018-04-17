@@ -41,6 +41,7 @@ function whileLoop (n) {
         
         while (array.length > 0 && maybeTrue());
    
-        }
+        return array;
+  }
       
   }
