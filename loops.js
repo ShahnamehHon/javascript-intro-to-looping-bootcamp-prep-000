@@ -33,7 +33,7 @@ function whileLoop (n) {
       
     return Math.random() >= 0.5
       
-     do {
+     } do {
         
         array = array.slice(1);
       
