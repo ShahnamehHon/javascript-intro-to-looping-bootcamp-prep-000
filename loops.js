@@ -33,7 +33,10 @@ function whileLoop (n) {
       
     return Math.random() >= 0.5
       
-      array = array.length > 0 && maybeTrue();
+      do {
+        
+        array = array.slice(1);
+        array.length > 0 && maybeTrue();
     }
     
   }
